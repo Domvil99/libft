@@ -19,15 +19,6 @@ void	*ft_memset(void *s, int c, size_t n)
 #include <string.h> // Para memset
 #include <stdio.h>  // Para printf
 
-int main(void)
-{
-    char str[50] = "Hola Mundo";
-    printf("Cadena original: %s\n", str);
-    ft_memset(str, '*', 5);
-    printf("Cadena después de ft_memset: %s\n", str);
-    return 0;
-}
-
 int	main(void)
 {
     char str[] = "Hola Mundo!";

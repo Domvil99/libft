@@ -8,18 +8,6 @@ int	ft_isdigit(int c)
 }
 
 /*
- int main(void)
- {
- 	char c = '5';
- 	if (ft_isdigit(c))
- 		printf("%c es un dígito.\n", c);
- 	else
- 		printf("%c no es un dígito.\n", c);
- 	return (0);
- }
-*/
-
-/*
 #include "libft.h"
 #include <stdio.h>
 

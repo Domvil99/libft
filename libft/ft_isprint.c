@@ -7,18 +7,6 @@ int	ft_isprint(int c)
 	return (0);
 }
 /*
-int main(void)
-{
-    char c = 'A';
-    if (ft_isprint(c))
-        printf("%c es un carácter imprimible.\n", c);
-    else
-        printf("%c no es un carácter imprimible.\n", c);
-
-    return (0);
-}
-*/
-/*
 #include <stdio.h>
 int	main(void)
 {
